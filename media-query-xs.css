@@ -2,6 +2,9 @@
         DISPLAY XS
 --------------------------------*/
 @media screen and (max-width: 576px) {
+    body{
+        min-width: 650px;
+    }
     /*-------HEADER--------*/
     header{
         width: 80px;
