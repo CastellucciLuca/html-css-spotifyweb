@@ -15,13 +15,13 @@
 header{
     width: 233px;
     height: calc(100vh - 120px);
-    overflow-y: scroll;
     background-color: black;
 }
 /*--------MAIN---------*/
 main{
     flex-grow: 1;
     background-color: grey;
+    overflow-y: scroll;
 }
 /*--------FOOTER-------*/
 footer{
