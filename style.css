@@ -12,6 +12,9 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+section{
+    margin: 3rem 0;
+}
 /*-------HEADER--------*/
 header{
     width: 233px;
