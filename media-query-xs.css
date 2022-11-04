@@ -4,11 +4,11 @@
 @media screen and (max-width: 576px) {
     /*-------HEADER--------*/
     header{
-        width: 70px;
+        width: 80px;
     }
     /*--------MAIN---------*/
     div.album-box{
-        width: calc(100% - 70px);
+        width: calc(100% - 80px);
     }
     /*--------FOOTER-------*/
 }

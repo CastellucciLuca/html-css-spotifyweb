@@ -50,7 +50,7 @@ main div.do-upgrade{
 nav.album-nav-bar ul{
     flex-wrap: wrap;
 }
-nav.album-nav-bar{
+nav.album-nav-bar ul li{
     margin: 1rem 2rem;
     text-transform: uppercase;
 }
