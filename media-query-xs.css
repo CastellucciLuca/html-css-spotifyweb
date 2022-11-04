@@ -7,11 +7,14 @@
     }
     /*-------HEADER--------*/
     header{
-        width: calc(100% - 80px);
+        width: 80px;
     }
     /*--------MAIN---------*/
-    div.album-box{
+    main{
         width: calc(100% - 80px);
     }
     /*--------FOOTER-------*/
+    footer{
+        min-width: 550px;
+    }
 }
