@@ -61,10 +61,10 @@ nav.main-nav ul li img{
     vertical-align: middle;
 }
 li.pressed{
-    color: #6c7179;
+    color: white;
 }
 li.not-pressed{
-    color: white;
+    color: #6c7179;
 }
 /*PLAYLIST*/
 section#playlist{
