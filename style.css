@@ -159,6 +159,9 @@ div.play-hover i{
 div.album-hover:hover div.play-hover{
     display: flex;
 }
+div.circle-img:hover{
+    display: none;
+}
 /*-ALBUM SECTION-*/
 section#album h2{
     color: white;
