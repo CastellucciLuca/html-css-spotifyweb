@@ -254,6 +254,9 @@ div.footer-left img{
 div.footer-player-name{
     color: #6c7179;
 }
+div.footer-player-name h4{
+    color: white;
+}
 div.footer-left-icon{
     margin: 0 2rem;
 }
