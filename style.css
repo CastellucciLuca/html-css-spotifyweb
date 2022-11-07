@@ -22,6 +22,10 @@ section{
 .circle-img{
     border-radius: 50%;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 /*-------HEADER--------*/
 header{
     width: 233px;
