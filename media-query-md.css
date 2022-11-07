@@ -6,7 +6,7 @@
 
     /*--------MAIN---------*/
     div.album-box{
-        width: calc((100% / 2) - 1rem);
+        width: calc(100% / 6 - 1rem);
     }
     /*--------FOOTER-------*/
 }
