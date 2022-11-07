@@ -3,7 +3,7 @@
 --------------------------------*/
 @media screen and (max-width: 576px) {
     body{
-        width: 100%;
+        min-width: 550px;
     }
     /*-------HEADER--------*/
     header{
@@ -19,14 +19,17 @@
     }
     /*NAV*/
     nav.main-nav{
-        margin: 2rem 0;
+        text-align: center;
     }
     nav.main-nav ul li{
         list-style: none;
-        font-size: 1.2rem;
+        font-size: 2rem;
         padding-left: 0;
     }
     nav.main-nav ul li span.text-nav{
+        display: none;
+    }
+    span.text-nav{
         display: none;
     }
     /*PLAYLIST*/
@@ -37,13 +40,27 @@
     section#login{
         margin-bottom: 1rem;
     }
+    section#login span{
+        display: none;
+    }
+    section#login div.separator-line{
+        display: none;
+    }
+    section#login img{
+        margin-top: 2rem;
+    }
+    div.download,
+    div.user{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     /*--------MAIN---------*/
     main{
         flex-grow: 1;
     }
     /*--------FOOTER-------*/
     footer{
-        width: 100%;
-        height: 200px;
+        min-width: 550px;
     }
 }
