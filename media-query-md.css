@@ -1,12 +1,12 @@
 /*-------------------------------
         DISPLAY MEDIUM
 --------------------------------*/
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 768px) {
     /*-------HEADER--------*/
 
     /*--------MAIN---------*/
     div.album-box{
-        width: calc((100% / 4) - 1rem);
+        width: calc((100% / 2) - 1rem);
     }
     /*--------FOOTER-------*/
 }
