@@ -7,7 +7,7 @@
     }
     /*-------HEADER--------*/
     header{
-        width: 80px;
+        width: 70px;
     }
     header img.main-logo{
         display: none;
@@ -19,11 +19,11 @@
     }
     /*NAV*/
     nav.main-nav{
-        text-align: center;
+        margin: 2rem 0;
     }
     nav.main-nav ul li{
         list-style: none;
-        font-size: 2rem;
+        font-size: 1.2rem;
         padding-left: 0;
     }
     nav.main-nav ul li span.text-nav{
@@ -32,6 +32,10 @@
     /*PLAYLIST*/
     section#playlist{
         display: none;
+    }
+    /*LOGIN*/
+    section#login{
+        margin-bottom: 1rem;
     }
     /*--------MAIN---------*/
     main{
