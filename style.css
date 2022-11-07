@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 /*----------GENERAL-------*/
 .flex{
@@ -30,7 +34,7 @@ a{
 header{
     width: 233px;
     height: calc(100vh - 120px);
-    color: white;
+    min-height: 700px;
     background-color: black;
     position: relative;
 }
@@ -124,7 +128,7 @@ main{
     width: calc(100% - 233px);
     height: calc(100vh - 120px);
     background-color: #141922;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     overflow-y: auto;
 }
 main section{
@@ -181,7 +185,6 @@ div.album-box img{
 }
 div.album-box h3{
     margin-top: 1rem;
-    color: white;
 }
 div.album-box h4{
     margin-top: .5rem;
@@ -204,30 +207,19 @@ div.play-hover{
 div.play-hover i{
     font-size: 4rem;
 }
+div.circle-hover{
+    border-radius: 50%;
+}
 div.album-hover:hover div.play-hover{
     display: flex;
 }
-div.circle-img:hover{
-    display: none;
-}
-/*----TEXT__COLOR___ALBUMS H2 AND P----*/
-/*-ALBUM SECTION-*/
-section#album h2{
-    color: white;
-}
+/*----TEXT__COLOR___ALBUMS P COLOR GREY----*/
 /*-CREATE FOR YOU SEC-*/
-
-section#create-for h2{
-    color: white;
-}
 section#create-for p{
     color: #6c7179;
     margin-top: .5rem;
 }
 /*-POPULAR ARTIST SEC-*/
-section#artist h2{
-    color: white;
-}
 section#artist p{
     color: #6c7179;
     margin-top: .5rem;
@@ -240,11 +232,7 @@ footer{
     position: fixed;
     bottom: 0;
 }
-div.footer-left{
-    width: 30%;
-    height: 100%;
-    background-color: chocolate;
-}
+div.footer-left,
 div.footer-right{
     width: 30%;
     height: 100%;
