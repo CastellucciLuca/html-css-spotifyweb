@@ -30,6 +30,9 @@ a{
     text-decoration: none;
     color: white;
 }
+.relative{
+    position: relative;
+}
 /*-------HEADER--------*/
 header{
     width: 233px;
@@ -62,6 +65,7 @@ nav.main-nav ul li img{
 }
 li.pressed{
     color: white;
+    border-left: 3px solid #a0ec2e;
 }
 li.not-pressed{
     color: #6c7179;
@@ -166,6 +170,16 @@ nav.album-nav-bar ul li{
     font-weight: bold;
     color: #6c7179;
     cursor: pointer;
+}
+nav.album-nav-bar ul li:hover{
+    color: white;
+}
+div.album-nav-bar-green{
+    min-height: 3px;
+    width: 40%;
+    background-color: #a0ec2e;
+    margin: 0 auto;
+    margin-top: 0.5rem;
 }
 /*--ALBUM SECTION--*/
 section#album{
