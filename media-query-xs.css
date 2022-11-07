@@ -3,7 +3,7 @@
 --------------------------------*/
 @media screen and (max-width: 576px) {
     body{
-        min-width: 560px;
+        width: 100%;
     }
     /*-------HEADER--------*/
     header{
@@ -39,6 +39,7 @@
     }
     /*--------FOOTER-------*/
     footer{
-        min-width: 560px;
+        width: 100%;
+        height: 200px;
     }
 }
