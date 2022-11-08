@@ -6,7 +6,9 @@
 
     /*--------MAIN---------*/
     div.album-box{
-        width: calc(100% / 2 - 1rem);
+        width: calc((100% / 2) - 1rem);
+        margin-right: 1rem;
+        text-align: center;
     }
     /*--------FOOTER-------*/
 }

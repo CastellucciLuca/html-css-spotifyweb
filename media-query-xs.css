@@ -57,7 +57,7 @@
     }
     /*--------MAIN---------*/
     main{
-        flex-grow: 1;
+        width: calc(100% - 70px);
     }
     /*--------FOOTER-------*/
     footer{
