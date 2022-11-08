@@ -5,6 +5,9 @@
     /*-------HEADER--------*/
 
     /*--------MAIN---------*/
+    div.album-row{
+        flex-wrap: wrap;
+    }
     div.album-box{
         width: calc((100% / 4) - 1rem);
         margin-right: 1rem;

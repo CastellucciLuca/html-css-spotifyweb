@@ -11,4 +11,7 @@
         text-align: center;
     }
     /*--------FOOTER-------*/
+    div.footer-left-icon{
+        margin: 0 .5rem;
+    }
 }
