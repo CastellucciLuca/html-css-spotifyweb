@@ -256,7 +256,7 @@ div.footer-right{
     height: 100%;
 }
 div.footer-center{
-    width: 40%;
+    width: 50%;
     height: 100%;
 }
 /* LEFT SECTION */
@@ -288,12 +288,13 @@ div.footer-left-icon i:hover{
 /* CENTER SECTION */
 div.footer-center{
     align-items: space-around;
-    padding: 2rem;
+    padding: 1rem;
 }
 div.player-top i{
     font-size: 1.5rem;
-    margin: 1 .5rem;
+    margin-right: 1.5rem;
     cursor: pointer;
+
 }
 div.player-top i:hover{
     transform: scale(1.5);
