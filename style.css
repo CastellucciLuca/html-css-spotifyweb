@@ -20,6 +20,9 @@ body{
 .flex-wrap{
     flex-wrap: wrap;
 }
+.flex-column{
+    flex-direction: column;
+}
 section{
     margin: 5rem 0;
 }
@@ -109,7 +112,7 @@ div.download{
     color: #6c7179;
 }
 div.download img{
-    width: 20px;
+    width: 25px;
     vertical-align: middle;
 }
 div.separator-line{
@@ -246,7 +249,6 @@ footer{
     background-color: #282828;
     position: fixed;
     bottom: 0;
-    margin: auto;
 }
 div.footer-left,
 div.footer-right{
@@ -263,7 +265,7 @@ div.footer-left{
 }
 div.footer-left img{
     height: 50%;
-    margin: 0 0.5rem;
+    margin: 0 .5rem;
 }
 div.footer-player-name{
     color: #6c7179;
@@ -276,10 +278,79 @@ div.footer-left-icon{
 }
 div.footer-left-icon i{
     margin-left: .5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #6c7179;
     cursor: pointer;
 }
 div.footer-left-icon i:hover{
     color: white;
+}
+/* CENTER SECTION */
+div.footer-center{
+    align-items: space-around;
+    padding: 2rem;
+}
+div.player-top i{
+    font-size: 1.5rem;
+    margin: 1 .5rem;
+    cursor: pointer;
+}
+div.player-top i:hover{
+    transform: scale(1.5);
+}
+div.player-bot{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+div.player-time{
+    width: 70%;
+    height: 3px;
+    background-color: #6c7179;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+div.player-time div.player-time-scroll{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+div.player-time div.player-time-scroll-hover{
+    width: 30%;
+    height: 100%;
+    background-color: #a0ec2e;
+    display: none;
+    position: relative;
+}
+div.player-time-scroll-hover div.player-time-circle{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+div.player-time:hover div.player-time-scroll-hover{
+    display: block;
+}
+div.player-time:hover div.player-time-circle{
+    display: block;
+}
+div.player-time:hover div.player-time-scroll{
+    display: none;
+}
+
+/* RIGHT SECITION */
+div.footer-right{
+    justify-content: flex-end;
+}
+div.footer-right i{
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+div.footer-right div.volume{
+    width: 20%;
 }
